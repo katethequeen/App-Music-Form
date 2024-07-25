@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Music -Registration</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+    <h1>Registrazione</h1>
+    <div class="container">
+        <form>
+            <div class="campo">
+                <input type="text" placeholder="Inserisci nome"/>
+            </div>
+            <div class="campo">
+                <input type="text" placeholder="Inserisci cognome"/>
+            </div>
+            <div class="campo">
+                <input type="email" placeholder="Inserisci email"/>
+            </div>
+            <div class="campo">
+                <input type="password" placeholder="Inserisci password"/>
+            </div>
+            <div class="campo">
+                <label>Data di Nascita</label><br>
+                <input type="date" style="margin-top: 6px;"/>
+            </div>
+            <div class="campo">
+                <input type="number" placeholder="Enter phone"/>
+            </div>
+            <div class="campo check">
+                <p style="margin-bottom: 10px; font-size: 25px;">Musica preferita</p>
+                <label class="scelta">Pop</label>
+                <input type="checkbox" style="cursor: pointer;"/>
+                <label class="scelta">Rock</label>
+                <input type="checkbox" style="cursor: pointer;" />
+                <label class="scelta">Rap</label>
+                <input type="checkbox" style="cursor: pointer;" />
+            </div>
+            <div class="campo">
+                <label>Accetto i Termini e le Condizioni</label>
+                <input type="radio" style="margin-left: 10px; cursor: pointer; width: 20px;"/>
+            </div>
+
+            <button type="submit" onclick="alert('Form Inviato')">INVIO</button>
+        
+        </form>
+    </div>
+</body>
+</html>
